@@ -1,7 +1,7 @@
 runtime: python27
 service: gora
-network:
-  name: projects/test-prod-270304/global/networks/testvpc
+#network:
+ # name: projects/test-prod-270304/global/networks/testvpc
 
 api_version: 1
 threadsafe: yes
