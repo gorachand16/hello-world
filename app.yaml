@@ -1,5 +1,8 @@
 runtime: python27
-#service: gora
+service: gora
+network:
+  name: gora/HOST_PROJECT_ID/global/networks/testvpc
+  subnetwork_name: testsub
 api_version: 1
 threadsafe: yes
 
