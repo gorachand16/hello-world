@@ -1,5 +1,5 @@
 runtime: python27
-service: gora
+#service: gora
 api_version: 1
 threadsafe: yes
 
