@@ -1,7 +1,9 @@
 runtime: python27
 service: gora
-vpc_access_connector:
-  name: "test-prod/test-prod-270304/us-central/us-central1/connectors/testvpc"
+network:
+  name: testvpc
+  subnetwork_name: testsub
+  session_affinity: true
 
 api_version: 1
 threadsafe: yes
