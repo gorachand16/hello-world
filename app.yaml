@@ -2,8 +2,6 @@ runtime: python27
 service: gora
 network:
   name: testvpc
-  subnetwork_name: testsub
-  session_affinity: true
 
 api_version: 1
 threadsafe: yes
